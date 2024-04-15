@@ -46,3 +46,13 @@ Maintenance: Regularly update models and system components to incorporate improv
 Feedback Loop: Gather feedback from artisans and customers to continuously improve the quality of generated product information.
 
 By following this plan, the jewellery marketplace can enhance its platform with AI technology, streamline the listing process for artisans, improve product information consistency, and enhance the shopping experience for customers.
+
+
+Database credentials and AWS keys are fetched from environment variables for security purposes.
+Database connection now uses dictionary cursor (cursor = conn.cursor(dictionary=True)) for easier data manipulation.
+Environment variables are used to specify the bucket name and prefix for S3 image retrieval.
+The suggested changes regarding error handling, data validation, model fine-tuning, optimization, documentation, and testing are not implemented here but are important considerations for further development.
+
+replace the DB details
+
+ "DB_HOST", "DB_USER", "DB_PASSWORD", "DB_NAME", "AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY", "S3_BUCKET_NAME", and "S3_PREFIX" with your actual values or set them as environment variables.

@@ -1,0 +1,6 @@
+tensorflow
+mysql-connector-python
+pandas
+Flask
+boto3
+transformers
